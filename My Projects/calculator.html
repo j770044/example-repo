@@ -1,0 +1,194 @@
+<!--
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calc-style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="logo">Calc</div>
+		<div class="display"></div>
+		<div class="func"></div>
+		<div class="btns">
+			<div class="symb">
+				<div class="num12"><button>CE</button></div>
+				<div class="num13"><button>C</button></div>
+				<div class="num14"><button>Bk</button></div>
+			</div>
+			<div class="numbtn">
+				<div class="num1"><button>1</button></div>
+				<div class="num2"><button>2</button></div>
+				<div class="num3"><button>3</button></div>
+				<div class="num4"><button>4</button></div>
+				<div class="num5"><button>5</button></div>
+				<div class="num6"><button>6</button></div>
+				<div class="num7"><button>7</button></div>
+				<div class="num8"><button>8</button></div>
+				<div class="num9"><button>9</button></div>
+				<div class="num10"><button>0</button></div>
+				<div class="num11"><button>.</button></div>
+			</div>
+			<div class="arithm">
+				<div class="num15"><button class="plus">+</button></div>
+				<div class="num16"><button>-</button></div>
+				<div class="num17"><button>/</button></div>
+				<div class="num18"><button>*</button></div>
+				<div class="num19"><button>=</button></div>
+				<div class="num20"><button>%</button></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+			Generates 10 buttons with nos.
+
+			.number*10>btn{$}
+
+
+			<div class="number"><button>1</button></div>
+			<div class="number"><button>2</button></div>
+			<div class="number"><button>3</button></div>
+			<div class="number"><button>4</button></div>
+			<div class="number"><button>5</button></div>
+			<div class="number"><button>6</button></div>
+			<div class="number"><button>7</button></div>
+			<div class="number"><button>8</button></div>
+			<div class="number"><button>9</button></div>
+			<div class="number"><button>10</button></div>
+
+
+
+			<div class="number number">1</div>
+			<div class="number number">2</div>
+			<div class="number number">3</div>
+			<div class="number number">4</div>
+			<div class="number number">5</div>
+			<div class="number number">6</div>
+			<div class="number number">7</div>
+			<div class="number number">8</div>
+			<div class="number number">9</div>
+			<div class="number number">+</div>
+			<div class="number number">-</div>
+			<div class="number number">*</div>
+			<div class="number number">/</div>
+			<div class="number number">=</div>
+		
+
+
+		header>.number*10>btn{$}
+
+
+
+		Will generate 10 classes with different nos.
+
+		.number$*10
+
+		<div class="number1"></div>
+		<div class="number2"></div>
+		<div class="number3"></div>
+		<div class="number4"></div>
+		<div class="number5"></div>
+		<div class="number6"></div>
+		<div class="number7"></div>
+		<div class="number8"></div>
+		<div class="number9"></div>
+		<div class="number10"></div>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calc</title>
+</head>
+<body>
+	<div class="calculator">
+
+  <input type="text" class="calculator-screen" value="0" disabled />
+
+  <div class="calculator-keys">
+
+    <button type="button" class="operator" value="+">+</button>
+    <button type="button" class="operator" value="-">-</button>
+    <button type="button" class="operator" value="*">&times;</button>
+    <button type="button" class="operator" value="/">&divide;</button>
+
+    <button type="button" value="7">7</button>
+    <button type="button" value="8">8</button>
+    <button type="button" value="9">9</button>
+
+
+    <button type="button" value="4">4</button>
+    <button type="button" value="5">5</button>
+    <button type="button" value="6">6</button>
+
+
+    <button type="button" value="1">1</button>
+    <button type="button" value="2">2</button>
+    <button type="button" value="3">3</button>
+
+
+    <button type="button" value="0">0</button>
+    <button type="button" class="decimal" value=".">.</button>
+    <button type="button" class="all-clear" value="all-clear">AC</button>
+
+    <button type="button" class="equal-sign" value="=">=</button>
+
+  </div>
+</div>
+
+</body>
+</html>
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calc</title>
+	<link rel="stylesheet" type="text/css" href="calc-style.css">
+</head>
+<body>
+	<div class="main">
+		<form name="form">
+			<input class="textview">
+			<table>
+				 <tr>
+				 	<td><input class="button" type="button" value="C"></td>
+				 	<td><input class="button" type="button" value="<"></td>
+				 	<td><input class="button" type="button" value="/" onclick="insert(/)"></td>
+				 	<td><input class="button" type="button" value="x" onclick="insert(/)"></td>
+				 </tr>
+				 <tr>
+				 	<td><input class="button" type="button" value="7" onclick="insert(/)"></td>
+				 	<td><input class="button" type="button" value="8" onclick="insert(/)"></td>
+				 	<td><input class="button" type="button" value="9" onclick="insert(/)"></td>
+				 	<td><input class="button" type="button" value="-" onclick="insert(/)"></td>
+				 </tr>
+				 <tr>
+				 	<td><input class="button" type="button" value="4" onclick="insert(/)"></td>
+				 	<td><input class="button" type="button" value="5" onclick="insert(/)"></td>
+				 	<td><input class="button" type="button" value="6" onclick="insert(/)"></td>
+				 	<td><input class="button" type="button" value="+" onclick="insert(/)"></td>
+				 </tr>
+				 <tr>
+				 	<td><input class="button" type="button" value="1" onclick="insert(/)"></td>
+				 	<td><input class="button" type="button" value="2" onclick="insert(/)"></td>
+				 	<td><input class="button" type="button" value="3"onclick="insert(/)"></td>
+				 	<td><input class="button" type="button" value="="></td>
+				 </tr>
+			</table>
+		</form>
+	</div>
+	<script>
+		
+	</script>
+</body>
+</html>
